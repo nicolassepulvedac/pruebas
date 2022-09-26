@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+
+body{
+    font-family: 'Raleway',sans-serif;
+}
+
+
+.bg-top {
+    background-color: #85D4B7;
+}
+.bg-vegan{
+    background-color: #6DCCAA;
+}
+
+
+
+
+#logo {
+    background-image: url('../img/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#vegan{
+    height: calc(100vh - 126px);
+}
+#vegan{
+    background-image: url('../img/vegan.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #6DCCAA;
+    background-size: 50vw;
+}
+#footer{
+    height: 70px;
+    padding: 15px;
+}
+#social{
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+#social ul{
+    list-style-type: none;
+}
+#social ul li {
+    float: left;
+}
+#social ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #6DCCAA;
+    border: 2px solid #FFF;
+    background-color: #FFF;
+    border-radius: 100%;    
+    margin-right: 20px;
+}
+#social ul li a:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #FFF;
+}
+#coaching{
+    font-family: 'Montserrat', sans-serif;
+}
+#izq{
+    background-image: url('../img/knoflook.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh );
+    
+}
+#der{
+    height: calc(100vh );
+}
+#logo3{
+    background-image: url('../img/tomaat.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    height: calc(100vh);
+}
